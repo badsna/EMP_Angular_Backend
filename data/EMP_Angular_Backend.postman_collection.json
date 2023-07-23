@@ -1,0 +1,163 @@
+{
+	"info": {
+		"_postman_id": "4d0b207d-fcef-4a00-9e53-59c4ec01f629",
+		"name": "EMP_Angular_Backend",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "27797508"
+	},
+	"item": [
+		{
+			"name": "New Request",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"teacher_name\":\"Badsna Shrestha\",\r\n    \"dob\":\"2051-02-21\",\r\n    \"phone\":\"98458653\",\r\n    \"email\":\"badsnastha@gmail.com\",\r\n    \"address\":\"nala\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/teacher/add",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"teacher",
+						"add"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "/teacher/add",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"teacher_name\":\"Badsna Shrestha\",\r\n    \"dob\":\"2051-02-21\",\r\n    \"phone\":\"98458653\",\r\n    \"email\":\"badsnastha@gmail.com\",\r\n    \"address\":\"nala\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/teacher/add",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"teacher",
+						"add"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "teacher/get/1",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"teacher_name\":\"Badsna Shrestha\",\r\n    \"dob\":\"2051-02-21\",\r\n    \"phone\":\"98458653\",\r\n    \"email\":\"badsnastha@gmail.com\",\r\n    \"address\":\"nala\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/teacher/getEmployeeById/1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"teacher",
+						"getEmployeeById",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "/teacher/getAllEmployee",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"teacher_name\":\"Badsna Shrestha\",\r\n    \"dob\":\"2051-02-21\",\r\n    \"phone\":\"98458653\",\r\n    \"email\":\"badsnastha@gmail.com\",\r\n    \"address\":\"nala\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/teacher/getAll",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"teacher",
+						"getAll"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "/teacher/delete/1",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"teacher_name\":\"Badsna Shrestha\",\r\n    \"dob\":\"2051-02-21\",\r\n    \"phone\":\"98458653\",\r\n    \"email\":\"badsnastha@gmail.com\",\r\n    \"address\":\"nala\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/teacher/delete/1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"teacher",
+						"delete",
+						"1"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
